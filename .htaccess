@@ -1,0 +1,7 @@
+# ----- Establish custom 404 File not Found page -----
+
+ErrorDocument 404 /filenotfound.php
+
+# ----- Prevent directory file listing in all your files -----
+
+IndexIgnore *
